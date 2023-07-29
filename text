@@ -1,0 +1,32 @@
+ <div class="contact">
+            <div class="text-contact">
+                     <h1>Contact information</h1>
+                     <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                 </div>
+                     <img src="ld.jpg" alt="google maps" style="width: 500px;">  
+                </div>
+------------------------------------------------------------------------------------------
+
+
+  .contact{
+      margin-top: 550px;
+      background-color: #F8F8F8; 
+      height: 90vh;
+      position: relative;
+     }
+     .contact .text-contact{
+        display: inline-block;
+        width: 45%;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        color: #69554F;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+    .contact img{
+      display: inline-block;
+      width: 45%;
+     margin-top: 80px;
+     position: absolute;
+     right: 80px;
+    }
